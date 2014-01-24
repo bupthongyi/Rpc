@@ -1,0 +1,61 @@
+option optimize_for = LITE_RUNTIME;
+
+message TestRequestAB {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseAB {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
+
+message TestRequestAC {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseAC {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
+
+message TestRequestBA {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseBA {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
+
+message TestRequestBC {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseBC {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
+
+message TestRequestCA {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseCA {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
+
+message TestRequestCB {
+  optional uint64 ID = 1;
+  optional string debug_info = 2;
+};
+
+message TestResponseCB {
+  optional uint64 ID = 1; 
+  optional string debug_info = 2;
+};
