@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IpcBase", "..\src\IpcBase\IpcBase.vcproj", "{238F7B97-7363-4945-94B6-719C9F7AA158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IpcClientTest", "..\src\IpcClientTest\IpcClientTest.vcproj", "{F1A70773-B063-4B84-A714-6B1DEC31E871}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IpcServerTest", "..\src\IpcServerTest\IpcServerTest.vcproj", "{FA755501-EB9F-41CC-A83A-CE00ACC1AFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238F7B97-7363-4945-94B6-719C9F7AA158}.Debug|Win32.ActiveCfg = Debug|Win32
+		{238F7B97-7363-4945-94B6-719C9F7AA158}.Debug|Win32.Build.0 = Debug|Win32
+		{238F7B97-7363-4945-94B6-719C9F7AA158}.Release|Win32.ActiveCfg = Release|Win32
+		{238F7B97-7363-4945-94B6-719C9F7AA158}.Release|Win32.Build.0 = Release|Win32
+		{F1A70773-B063-4B84-A714-6B1DEC31E871}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1A70773-B063-4B84-A714-6B1DEC31E871}.Debug|Win32.Build.0 = Debug|Win32
+		{F1A70773-B063-4B84-A714-6B1DEC31E871}.Release|Win32.ActiveCfg = Release|Win32
+		{F1A70773-B063-4B84-A714-6B1DEC31E871}.Release|Win32.Build.0 = Release|Win32
+		{FA755501-EB9F-41CC-A83A-CE00ACC1AFDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA755501-EB9F-41CC-A83A-CE00ACC1AFDD}.Debug|Win32.Build.0 = Debug|Win32
+		{FA755501-EB9F-41CC-A83A-CE00ACC1AFDD}.Release|Win32.ActiveCfg = Release|Win32
+		{FA755501-EB9F-41CC-A83A-CE00ACC1AFDD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
